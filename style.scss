@@ -1,0 +1,100 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.nav-colour {
+    background-color: #7000f0;
+}
+
+body {
+    background-color: #cabff5;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+.dropdown-item-head {
+    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #fff700;
+    border-color: #fbff00;
+    font-weight: 600;
+    font-size: large;
+}
+
+.hero {
+    background-color: #000000;
+}
+
+.carousel-item {
+    max-height: 450px;
+}
+
+.card {
+    height: 100%;
+}
+
+.card img {
+    padding:1em;
+}
+
+.card-title {
+    font-size: larger;
+}
+
+.carimg {
+    object-fit: cover;
+}
+
+.navbar-toggler-icon {
+    background-image: url('img/1.svg');
+}
+
+div .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.btn-more {
+    background-color: #e00748;
+    color: white;
+}
+
+.btn-submit {
+    background-color: #5c2d8c;
+    color: white;
+}
+
+.btn-red {
+    background-color: #f00;
+    font-weight: 600;
+    font-size: large;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.price .btn {
+    margin-top: 0.5em;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.modal-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
